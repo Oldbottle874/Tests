@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html>
-	<head>	
-		<title>JavaScript Simple Login System</title>
-		<link rel="shortcut icon" href="favicon.ico">
-	</head>
-	<body>
-		<form>
-			<input type="text" id="username" placeholder="Choose Username">
-			<input type="password" id="password" placeholer="Choose Password">
-			<button type="button" onclick="getInfo()">Click Me</button>
-		</form>
+<form method="POST" action="/users/contact"> 
 
-		<script src="js/main.js"></script>
-	</body>
-</html>
+  <select name="car" size="1"  required id="rankx">
+    <option value="" selected disabled hidden>Option</option>
+    <option value="volvo">volvo</option>
+    <option value="swift">swift</option>
+  </select>
+
+<br />
+  <select name="model" size="1"  required>
+    <option value="" selected disabled hidden>Rank</option>
+    <option value="c500">c500</option>
+    <option value="Ta66">Ta66</option>
+  </select>
+
+<input type="submit" value="Submit" name="submit" id="submit"/>
