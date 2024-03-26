@@ -1,6 +1,6 @@
  <!DOCTYPE html>
 <html>
-  <script src="myscripts.js"></script> 
+
 <head>
 
 </head>
@@ -12,7 +12,12 @@ Enter something in the box: <br>
 <input type="text" name="inputbox" value="" />
 <input type="button" name="button" value="Click" onClick="testResults(this.form)" />
 </form>
-
+<script>
+ function testResults (form) {
+    var inputValue = form.inputbox.value;
+    alert ("You typed: " + inputValue);
+}
+</script>
 
 </body>
 </html> 
